@@ -1,0 +1,11 @@
+<button onclick="showModal()">Open Modal</button>
+
+<div id="modal" style="display:none;position:fixed;top:30%;left:30%;background:white;padding:20px;border:2px solid black;">
+  <p>This is a modal!</p>
+  <button onclick="hideModal()">Close</button>
+</div>
+
+<script>
+function showModal() { document.getElementById('modal').style.display = 'block'; }
+function hideModal() { document.getElementById('modal').style.display = 'none'; }
+</script>
